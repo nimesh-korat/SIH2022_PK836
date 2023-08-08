@@ -89,7 +89,7 @@ if (isset($_POST["F_NAME"]) && isset($_POST["L_NAME"]) && isset($_POST["U_PHONE_
         $get_CityOpresult = mysqli_query($db_con, $get_CityOpQuery);
         $numrow = mysqli_num_rows($get_CityOpresult);
 
-        $urlForPincode = "https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyAwoYRkSGxYH9XRYFQ7ynp37hKrJLbq1-c&components=postal_code:$U_PINCODE";
+        $urlForPincode = "https://maps.googleapis.com/maps/api/geocode/json?key=KEY-c&components=postal_code:$U_PINCODE";
         $detailspin = file_get_contents($urlForPincode);
         $urlForPincode = json_decode($detailspin, true);
 
