@@ -21,8 +21,8 @@ require __DIR__ . '/vendor/autoload.php';
 
 use Twilio\Rest\Client;
 
-$account_sid = 'ACec8726f9321593194450941a47c40e19';
-$auth_token = 'a412345cb274939c0c7b17195371a98d';
+$account_sid = '...'; //sid
+$auth_token = '...'; //token
 $client = new Client($account_sid, $auth_token);
 $twilio_number = "+14434197394";
 
