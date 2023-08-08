@@ -220,40 +220,7 @@ if (isset($_POST["F_NAME"]) && isset($_POST["L_NAME"]) && isset($_POST["U_PHONE_
                             'body' => $msg
                         )
                     );
-                    // $link = "Hey! Check Out... You Got An Appointment...";
-                    // $fields = array(
-                    // 	"sender_id" => "FTWSMS",
-                    // 	"message_text" => $link,
-                    // 	"language" => "english",
-                    // 	"route" => "v3",
-                    // 	"numbers" => $phone5km,
-                    // );
-
-                    // $curl = curl_init();
-
-                    // curl_setopt_array($curl, array(
-                    // 	CURLOPT_URL => "https://www.fast2sms.com/dev/bulkV2",
-                    // 	CURLOPT_RETURNTRANSFER => true,
-                    // 	CURLOPT_ENCODING => "",
-                    // 	CURLOPT_MAXREDIRS => 10,
-                    // 	CURLOPT_TIMEOUT => 30,
-                    // 	CURLOPT_SSL_VERIFYHOST => 0,
-                    // 	CURLOPT_SSL_VERIFYPEER => 0,
-                    // 	CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-                    // 	CURLOPT_CUSTOMREQUEST => "POST",
-                    // 	CURLOPT_POSTFIELDS => json_encode($fields),
-                    // 	CURLOPT_HTTPHEADER => array(
-                    // 		"authorization: g2U5rNZ3SAWOkGQvTxYRj6EMnF41py9JflCzVDubPqi7IBho0c75HlyLgcE12TBh8eKJbFjP9mrziNUX",
-                    // 		"accept: */*",
-                    // 		"cache-control: no-cache",
-                    // 		"content-type: application/json"
-                    // 	),
-                    // ));
-
-                    // $response15 = curl_exec($curl);
-                    // $err = curl_error($curl);
-
-                    // curl_close($curl);
+                    
                 }
             } else if ($count2 > 0) {
 
@@ -283,40 +250,7 @@ if (isset($_POST["F_NAME"]) && isset($_POST["L_NAME"]) && isset($_POST["U_PHONE_
                         )
                     );
 
-                    //$link = "Hey! Check Out... You Got An Appointment...";
-                    // $fields = array(
-                    // 	"sender_id" => "FTWSMS",
-                    // 	"message_text" => $link,
-                    // 	"language" => "english",
-                    // 	"route" => "v3",
-                    // 	"numbers" => $phone10km,
-                    // );
-
-                    // $curl = curl_init();
-
-                    // curl_setopt_array($curl, array(
-                    // 	CURLOPT_URL => "https://www.fast2sms.com/dev/bulkV2",
-                    // 	CURLOPT_RETURNTRANSFER => true,
-                    // 	CURLOPT_ENCODING => "",
-                    // 	CURLOPT_MAXREDIRS => 10,
-                    // 	CURLOPT_TIMEOUT => 30,
-                    // 	CURLOPT_SSL_VERIFYHOST => 0,
-                    // 	CURLOPT_SSL_VERIFYPEER => 0,
-                    // 	CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-                    // 	CURLOPT_CUSTOMREQUEST => "POST",
-                    // 	CURLOPT_POSTFIELDS => json_encode($fields),
-                    // 	CURLOPT_HTTPHEADER => array(
-                    // 		"authorization: g2U5rNZ3SAWOkGQvTxYRj6EMnF41py9JflCzVDubPqi7IBho0c75HlyLgcE12TBh8eKJbFjP9mrziNUX",
-                    // 		"accept: */*",
-                    // 		"cache-control: no-cache",
-                    // 		"content-type: application/json"
-                    // 	),
-                    // ));
-
-                    // $response15 = curl_exec($curl);
-                    // $err = curl_error($curl);
-
-                    // curl_close($curl);
+                    
                 }
             } else if ($count3 > 0) {
 
@@ -348,40 +282,7 @@ if (isset($_POST["F_NAME"]) && isset($_POST["L_NAME"]) && isset($_POST["U_PHONE_
                         )
                     );
 
-                    //$link = "Hey! Check Out... You Got An Appointment...";
-                    // $fields = array(
-                    // 	"sender_id" => "FTWSMS",
-                    // 	"message_text" => $link,
-                    // 	"language" => "english",
-                    // 	"route" => "v3",
-                    // 	"numbers" => $phone15km,
-                    // );
-
-                    // $curl = curl_init();
-
-                    // curl_setopt_array($curl, array(
-                    // 	CURLOPT_URL => "https://www.fast2sms.com/dev/bulkV2",
-                    // 	CURLOPT_RETURNTRANSFER => true,
-                    // 	CURLOPT_ENCODING => "",
-                    // 	CURLOPT_MAXREDIRS => 10,
-                    // 	CURLOPT_TIMEOUT => 30,
-                    // 	CURLOPT_SSL_VERIFYHOST => 0,
-                    // 	CURLOPT_SSL_VERIFYPEER => 0,
-                    // 	CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-                    // 	CURLOPT_CUSTOMREQUEST => "POST",
-                    // 	CURLOPT_POSTFIELDS => json_encode($fields),
-                    // 	CURLOPT_HTTPHEADER => array(
-                    // 		"authorization: g2U5rNZ3SAWOkGQvTxYRj6EMnF41py9JflCzVDubPqi7IBho0c75HlyLgcE12TBh8eKJbFjP9mrziNUX",
-                    // 		"accept: */*",
-                    // 		"cache-control: no-cache",
-                    // 		"content-type: application/json"
-                    // 	),
-                    // ));
-
-                    // $response15 = curl_exec($curl);
-                    // $err = curl_error($curl);
-
-                    // curl_close($curl);
+                    
                 }
             } else if ($count4 > 0) {
 
@@ -412,40 +313,6 @@ if (isset($_POST["F_NAME"]) && isset($_POST["L_NAME"]) && isset($_POST["U_PHONE_
                         )
                     );
 
-                    //$link = "Hey! Check Out... You Got An Appointment...";
-                    // $fields = array(
-                    // 	"sender_id" => "FTWSMS",
-                    // 	"message_text" => $link,
-                    // 	"language" => "english",
-                    // 	"route" => "v3",
-                    // 	"numbers" => $phone20km,
-                    // );
-
-                    // $curl = curl_init();
-
-                    // curl_setopt_array($curl, array(
-                    // 	CURLOPT_URL => "https://www.fast2sms.com/dev/bulkV2",
-                    // 	CURLOPT_RETURNTRANSFER => true,
-                    // 	CURLOPT_ENCODING => "",
-                    // 	CURLOPT_MAXREDIRS => 10,
-                    // 	CURLOPT_TIMEOUT => 30,
-                    // 	CURLOPT_SSL_VERIFYHOST => 0,
-                    // 	CURLOPT_SSL_VERIFYPEER => 0,
-                    // 	CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-                    // 	CURLOPT_CUSTOMREQUEST => "POST",
-                    // 	CURLOPT_POSTFIELDS => json_encode($fields),
-                    // 	CURLOPT_HTTPHEADER => array(
-                    // 		"authorization: g2U5rNZ3SAWOkGQvTxYRj6EMnF41py9JflCzVDubPqi7IBho0c75HlyLgcE12TBh8eKJbFjP9mrziNUX",
-                    // 		"accept: */*",
-                    // 		"cache-control: no-cache",
-                    // 		"content-type: application/json"
-                    // 	),
-                    // ));
-
-                    // $response15 = curl_exec($curl);
-                    // $err = curl_error($curl);
-
-                    // curl_close($curl);
                 }
             }
 
