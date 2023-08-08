@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingTop="55dp"
+    android:orientation="vertical"
+    tools:context=".Operator.Resign_Activity_Operator">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resignation_form"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/ic_resign"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/username_resign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:padding="5dp"
+        android:text="@string/username"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/contact_resign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/phone_no"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/email_resign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:padding="5dp"
+        android:text="@string/email"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/comments_resign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/tell_us_reason_for_resign"
+        app:counterEnabled="true"
+        app:counterMaxLength="150"
+        app:endIconMode="clear_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:gravity="top"
+            android:maxLength="150"
+            android:padding="25dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <CheckBox
+        android:id="@+id/check_resign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm_resignation" />
+
+    <Button
+        android:id="@+id/btn_cnf_resign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm"
+        tools:ignore="MissingConstraints" />
+</LinearLayout>

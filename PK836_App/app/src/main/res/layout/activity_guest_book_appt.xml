@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="55dp"
+    tools:context=".Citizen.Add_Appointment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/add_apnt_fname_guest"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="@string/first_name"
+                app:boxStrokeColor="?attr/colorOnSurface">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textPersonName"
+                    android:textStyle="bold"
+                    app:boxStrokeColor="@color/black" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/fname_speech_guest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_mic"
+                android:text="Add First Name"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/add_apnt_lname_guest"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="@string/last_name"
+                app:boxStrokeColor="@color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textPersonName"
+                    android:textStyle="bold"
+                    app:boxStrokeColor="@color/black" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/last_speech_guest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_mic"
+                android:text="Add Last Name"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/add_apnt_phone_guest"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="@string/phone_no"
+                app:boxStrokeColor="@color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:digits="0123456789"
+                    android:inputType="textFilter"
+                    android:maxLength="10"
+                    android:textStyle="bold"
+                    app:boxStrokeColor="@color/black" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/phoneNo_speech_guest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_mic"
+                android:text="Add Phone No"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/add_apnt_address_guest"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="@string/address"
+                app:boxStrokeColor="@color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:breakStrategy="simple"
+                    android:fitsSystemWindows="true"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:textStyle="bold"
+                    app:boxStrokeColor="@color/black" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/address_speech_guest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_mic"
+                android:text="Add \nAddress"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/add_apnt_pincode_guest"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="@string/pincode"
+                app:boxStrokeColor="@color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="numberDecimal"
+                    android:maxLength="6"
+                    android:textStyle="bold"
+                    app:boxStrokeColor="@color/black" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/pincode_speech_guest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_mic"
+                android:text="Add \nPincode"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar_signup_operator_guest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_add_apnt_get_pincode_guest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/verify_pincode" />
+
+        <TextView
+            android:id="@+id/add_apnt_city_guest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/add_apnt_state_guest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <RadioGroup
+            android:id="@+id/rg_add_apnt_guest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb_new_enroll_guest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fresh_aadhaar_enrolment" />
+
+            <RadioButton
+                android:id="@+id/rb_update_enroll_guest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Update Aadhaar" />
+
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/cb_nm_update_guest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_update"
+            android:visibility="gone" />
+
+        <CheckBox
+            android:id="@+id/cb_add_update_guest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/address_update"
+            android:visibility="gone" />
+
+        <CheckBox
+            android:id="@+id/cb_mb_update_guest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mobile_update"
+            android:visibility="gone" />
+
+        <CheckBox
+            android:id="@+id/cb_em_update_guest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email_id_update"
+            android:visibility="gone" />
+
+        <CheckBox
+            android:id="@+id/cb_photo_update_guest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/photograph_biometrics_update"
+            android:visibility="gone" />
+
+        <CheckBox
+            android:id="@+id/cb_dob_update_guest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date_of_birth_update"
+            android:visibility="gone" />
+
+        <CheckBox
+            android:id="@+id/cb_gndr_update_guest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gender_update"
+            android:visibility="gone" />
+
+        <!--<androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_cnfm_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm Location" />-->
+
+        <CheckBox
+            android:id="@+id/cnfm_appt_checkbox_guest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/all_above_details_are_correct_and_checked_by_myself_n_i_want_to_book_appointment" />
+
+        <Button
+            android:id="@+id/btn_book_apnt_guest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="30dp"
+            android:enabled="false"
+            android:text="@string/book_appointment" />
+
+    </LinearLayout>
+</ScrollView>

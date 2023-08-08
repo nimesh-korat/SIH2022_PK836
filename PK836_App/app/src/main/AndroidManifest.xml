@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.pk836_6senses">
+
+    <dist:module dist:instant="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PK836_6Senses"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Operator.OperatorSettings"
+            android:exported="false" />
+        <activity
+            android:name=".Guest.Guest_Select_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Guest.Guest_Book_Appt"
+            android:exported="false" />
+        <activity
+            android:name=".Guest.Guest_Home_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".No_Internet.NoActiveAppt"
+            android:exported="false" />
+        <activity
+            android:name=".Citizen.Citizen_Settings"
+            android:exported="false" />
+        <activity
+            android:name=".No_Internet.NoOpFound"
+            android:exported="false" /> <!-- <meta-data -->
+        <!-- android:name="com.google.android.gms.version" -->
+        <!-- android:value="@integer/google_play_services_version" /> -->
+        <activity
+            android:name=".No_Internet.NoInternet"
+            android:exported="false" />
+        <activity
+            android:name=".SelectUser"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- CITIZEN ACTIVITIES -->
+
+        <activity
+            android:name=".Citizen.PasswordUpdated"
+            android:exported="false" />
+        <activity
+            android:name=".Citizen.SetNewPassword"
+            android:exported="false" />
+        <activity
+            android:name=".Citizen.ForgetPassVerifyCode"
+            android:exported="false" />
+        <activity
+            android:name=".Citizen.ForgetPass"
+            android:exported="true" />
+        <activity
+            android:name=".Citizen.Pdf_Citizen"
+            android:exported="false" />
+        <activity
+            android:name=".Citizen.register4"
+            android:exported="false" />
+        <activity
+            android:name=".Citizen.register3"
+            android:exported="false" />
+        <activity
+            android:name=".Citizen.register2"
+            android:exported="false" />
+        <activity
+            android:name=".Citizen.register1"
+            android:exported="true" />
+        <activity
+            android:name=".Citizen.Book_appt_OnPortal"
+            android:exported="false" />
+        <activity
+            android:name=".Citizen.Comp_Appt_Details_Citizen"
+            android:exported="false" />
+        <activity
+            android:name=".Citizen.MyBaseActivity_Citizen"
+            android:exported="false" />
+        <activity
+            android:name=".Citizen.DirectionToOperator_Citizen"
+            android:exported="false" />
+        <activity
+            android:name=".Citizen.Pending_Apnt_Detail_Citizen"
+            android:exported="false" />
+        <activity
+            android:name=".Citizen.Confirm_Details_Citizen"
+            android:exported="false" />
+        <activity
+            android:name=".Citizen.Home_Activity_Citizen"
+            android:exported="false" />
+        <activity
+            android:name=".Citizen.Login_Page_Citizen"
+            android:exported="false" />
+        <activity
+            android:name=".Citizen.Profile_Citizen"
+            android:exported="false" />
+        <activity
+            android:name=".Citizen.Completed_apnt_Citizen"
+            android:exported="false" />
+        <activity
+            android:name=".Citizen.Pending_apnt_Citizen"
+            android:exported="false" />
+        <activity
+            android:name=".Citizen.Active_apnt_Citizen"
+            android:exported="false" />
+        <activity
+            android:name=".Citizen.SelectLocationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Citizen.Add_Appointment"
+            android:exported="false" /> <!-- OPERATOR ACTIVITIES -->
+        <activity
+            android:name=".Operator.Resign_Activity_Operator"
+            android:exported="false" />
+        <activity
+            android:name=".Operator.ShowReviews"
+            android:exported="false" />
+
+        <service
+            android:name=".Operator.BGLocationService_Operator"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".Operator.Completed_apnt_Operator"
+            android:exported="false" />
+        <activity
+            android:name=".Operator.Active_apnt_Operator"
+            android:exported="false" />
+        <activity
+            android:name=".Operator.MyBaseActivity_Operator"
+            android:exported="false" />
+        <activity
+            android:name=".Operator.Apnt_Detail_accept_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Operator.Profile_Operator"
+            android:exported="false" />
+        <activity
+            android:name=".Operator.Home_Activity_Operator"
+            android:exported="false" />
+        <activity
+            android:name=".Operator.Login_Page_Operator"
+            android:exported="false" />
+        <activity
+            android:name=".Operator.Pending_apnt_Operator"
+            android:exported="false" />
+        <activity
+            android:name=".Operator.AttendanceActivity_Operator"
+            android:exported="false" />
+        <activity
+            android:name=".Operator.Op_register4"
+            android:exported="false" />
+        <activity
+            android:name=".Operator.Op_register3"
+            android:exported="false" />
+        <activity
+            android:name=".Operator.Op_register2"
+            android:exported="false" />
+        <activity
+            android:name=".Operator.Op_register1"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_api_key" />
+    </application>
+
+</manifest>

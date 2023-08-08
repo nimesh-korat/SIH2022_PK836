@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="25dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SelectUser">
+
+    <Button
+        android:id="@+id/gotoCitizen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/go_to_citizen"/>
+
+    <Button
+        android:id="@+id/gotoOperator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/go_to_operator"/>
+
+
+</LinearLayout>

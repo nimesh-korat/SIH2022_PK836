@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bar="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="55dp"
+    tools:context=".Operator.ShowReviews">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:elevation="10dp"
+            android:padding="5dp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/behaviour"
+                    android:textStyle="bold" />
+
+                <com.taufiqrahman.reviewratings.RatingReviews
+                    android:id="@+id/rating_reviews_behaviour"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="7dp"
+                    bar:animation="true"
+                    bar:rounded="true"
+                    bar:show_label="true"
+                    bar:spaces="2dp"
+                    bar:text_color="#333333"
+                    bar:text_size="10sp"
+                    bar:width="12dp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:elevation="10dp"
+            android:padding="5dp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:text="Accuracy"
+                    android:textStyle="bold" />
+
+                <com.taufiqrahman.reviewratings.RatingReviews
+                    android:id="@+id/rating_reviews_accuracy"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="7dp"
+                    bar:animation="true"
+                    bar:rounded="true"
+                    bar:show_label="true"
+                    bar:spaces="2dp"
+                    bar:text_color="#333333"
+                    bar:text_size="10sp"
+                    bar:width="12dp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/reviewList"
+            android:layout_width="672dp"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/item_citizen_review_history" />
+
+    </LinearLayout>
+</ScrollView>

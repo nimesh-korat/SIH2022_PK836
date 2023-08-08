@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/op_home"
+            android:icon="@drawable/ic_baseline_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/op_attendance"
+            android:icon="@drawable/calendar"
+            android:title="Make Me Present" />
+    </group>
+
+    <item android:title="Appointment">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/op_apnt_Pending"
+                    android:icon="@drawable/ic_baseline_hourglass_top"
+                    android:title="Pending" />
+                <item
+                    android:id="@+id/op_apnt_Completed"
+                    android:icon="@drawable/checked"
+                    android:title="Completed" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Settings">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/op_profile"
+                    android:icon="@drawable/ic_person"
+                    android:title="Profile" />
+                <item
+                    android:id="@+id/op_resign"
+                    android:icon="@drawable/belongings"
+                    android:title="Want to request for Resign" />
+                <item
+                    android:id="@+id/settings"
+                    android:icon="@drawable/ic_baseline_settings_24"
+                    android:title="@string/setting" />
+             <!--   <item
+                    android:id="@+id/language"
+                    android:icon="@drawable/ic_language"
+                    android:title="Change App Language" />-->
+                <!--<item
+                    android:id="@+id/theme"
+                    android:icon="@drawable/ic_marker_select_location"
+                    android:title="Change App Theme"
+                    app:actionViewClass="androidx.appcompat.widget.SwitchCompat"
+                    app:showAsAction="always" />-->
+                <item
+                    android:id="@+id/op_logout"
+                    android:icon="@drawable/logout"
+                    android:title="LogOut" />
+            </group>
+        </menu>
+
+    </item>
+
+</menu>

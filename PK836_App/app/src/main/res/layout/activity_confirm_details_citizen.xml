@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="55dp"
+    tools:context=".Citizen.Confirm_Details_Citizen">
+
+    <TextView
+        android:id="@+id/cnfm_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape"
+        android:padding="5dp"
+        android:text="@string/name"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/cnfm_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape"
+        android:padding="5dp"
+        android:text="@string/phone"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/cnfm_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape"
+        android:padding="5dp"
+        android:text="@string/address"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/cnfm_pincode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape"
+        android:padding="5dp"
+        android:text="@string/pincode"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/cnfm_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape"
+        android:padding="5dp"
+        android:text="@string/city"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/cnfm_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape"
+        android:padding="5dp"
+        android:text="@string/state"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/cnfm_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape"
+        android:padding="5dp"
+        android:text="@string/appt_details"
+        android:textSize="25sp" />
+
+    <CheckBox
+        android:id="@+id/cnfm_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/all_above_details_are_correct_and_checked_by_myself_n_i_want_to_book_appointment" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btn_back_cnfm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/back" />
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/confirmed" />
+
+    </LinearLayout>
+
+</LinearLayout>

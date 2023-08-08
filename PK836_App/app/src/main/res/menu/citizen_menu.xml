@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_baseline_home"
+            android:title="@string/home" />
+
+    </group>
+
+    <item android:title="@string/appointment">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/apnt_Pending"
+                    android:icon="@drawable/ic_baseline_hourglass_top"
+                    android:title="@string/pending" />
+                <item
+                    android:id="@+id/apnt_Completed"
+                    android:icon="@drawable/checked"
+                    android:title="@string/completed" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/settings">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/profile"
+                    android:icon="@drawable/ic_person"
+                    android:title="@string/profile" />
+                <item
+                    android:id="@+id/settings"
+                    android:icon="@drawable/ic_baseline_settings_24"
+                    android:title="@string/setting" />
+                <!--<item
+                    android:id="@+id/language"
+                    android:icon="@drawable/ic_language"
+                    android:title="Change App Language"
+                    app:actionViewClass="android.widget.Spinner"
+                    android:background="#ff00"
+                    app:showAsAction="always" />-->
+                <!--      <item
+                          android:id="@+id/theme"
+                          android:icon="@drawable/ic_marker_select_location"
+                          android:title="Change App Theme"
+                          app:actionViewClass="androidx.appcompat.widget.SwitchCompat"
+                          app:showAsAction="always"/>-->
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/logout"
+                    android:title="@string/logout" />
+            </group>
+        </menu>
+
+    </item>
+
+</menu>

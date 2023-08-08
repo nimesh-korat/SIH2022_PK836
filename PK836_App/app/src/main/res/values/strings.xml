@@ -1,0 +1,122 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">PK836_6Senses</string>
+    <string name="background_location_permission_message" tools:ignore="MissingTranslation">
+
+
+    <string name="service_already_running">Service is already running</string>
+    <string name="service_start_successfully">Service started successfully</string>
+
+
+    </string>
+    <string name="service_grant_permission" translatable="false">  - Please Grant Permission to Allow All the Time</string>
+
+
+    <string name="google_api_key" translatable="false">AIzaSyAwoYRkSGxYH9XRYFQ7ynp37hKrJLbq1-c</string>
+    <string name="operator_is_on_the_way_please_share_above_otp_with_operator_once_your_appointment_got_successfully_completed">Operator is on the way. Please Share above OTP with operator once your appointment got successfully completed...</string>
+    <string name="behaviour">BEHAVIOUR:</string>
+    <string name="op_name">Op Name:</string>
+    <string name="appointment_id">Appointment ID -</string>
+    <string name="booked_date">Booked Date -</string>
+    <string name="accepted_date">Accepted Date -</string>
+    <string name="details_for_updation">Details for Updation -</string>
+    <string name="address">Address -</string>
+    <string name="city">City -</string>
+    <string name="state">State -</string>
+    <string name="pincode">Pincode -</string>
+    <string name="citizen_name">Citizen Name:</string>
+    <string name="submit_otp">Submit Otp</string>
+    <string name="get_directions">Get Directions</string>
+    <string name="user_name">User Name</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_no">Phone No</string>
+    <string name="verify_pincode">verify Pincode</string>
+    <string name="fresh_aadhaar_enrolment">Fresh Aadhaar Enrolment</string>
+    <string name="name_update">Name Update</string>
+    <string name="address_update">Address Update</string>
+    <string name="mobile_update">Mobile update</string>
+    <string name="email_id_update">Email ID Update</string>
+    <string name="photograph_biometrics_update">Photograph (Biometrics) Update</string>
+    <string name="date_of_birth_update">Date of Birth Update</string>
+    <string name="gender_update">Gender Update</string>
+    <string name="all_above_details_are_correct_and_checked_by_myself_n_i_want_to_book_appointment">All above details are correct and checked by myself, \n I want to book appointment.</string>
+    <string name="book_appointment">Book appointment</string>
+    <string name="citizen_phone">Citizen Phone -</string>
+    <string name="your_aadhaar_updated_details">Aadhaar Update Details -</string>
+    <string name="accept">Accept</string>
+    <string name="phone">Phone</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register_here">Register Here</string>
+    <string name="change_language">Change Language</string>
+    <string name="email">Email</string>
+    <string name="attendance_form">Attendance Form</string>
+    <string name="click_present_button_below_for_fill_your_today_s_attendance">Click Present Button below for Fill your Today\'s attendance</string>
+    <string name="absent">Absent</string>
+    <string name="present">Present</string>
+    <string name="operator_name">Operator Name -</string>
+    <string name="completed_date">Completed Date-</string>
+    <string name="add_review">ADD REVIEW</string>
+    <string name="name">NAME</string>
+    <string name="appt_details">Appt_Details</string>
+    <string name="back">back</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="get_otp">get otp</string>
+    <string name="verify">verify</string>
+    <string name="view_appointment">View Appointment</string>
+    <string name="how_to_book_appointment">Document for book\nAppointment</string>
+    <string name="book_appointment_on_nuidai_portal">Book Appointment \non UIDAI Portal</string>
+    <string name="your_completed_nappointments">Your Completed \nAppointments</string>
+    <string name="your_pending_nappointments">Your Pending \nAppointments</string>
+    <string name="your_average_nreviews">Your Average \nReviews</string>
+    <string name="active_nappointment">Active \nAppointment</string>
+    <string name="cancel_appointment">Cancel Appointment</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="get_pincode">get pincode</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="update">Update</string>
+    <string name="pin_code">Pin-Code</string>
+    <string name="resignation_form">Resignation Form</string>
+    <string name="username">Username</string>
+    <string name="tell_us_reason_for_resign">Tell us reason for Resign</string>
+    <string name="confirm_resignation">Confirm Resignation</string>
+    <string name="confirm">Confirm</string>
+    <string name="conform_location">Confirm Location</string>
+    <string name="go_to_citizen">Go to citizen</string>
+    <string name="go_to_operator">Go to operator</string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="register">Register</string>
+    <string name="already_registered_n_login">Already registered? \n Login</string>
+    <string name="get_pin">get pin</string>
+    <string name="aadhaar_booking_service">Aadhaar Booking Service</string>
+    <string name="citizen">CITIZEN</string>
+    <string name="comments">Comments</string>
+    <string name="comments_description_shows_here">Comments Description shows here</string>
+    <string name="operator">OPERATOR</string>
+    <string name="behaviour_of_operator">Behaviour Of Operator</string>
+    <string name="have_you_liked_behaviour_of_our_operator_would_you_mind_to_rate_us_of_operator">Have you liked Behaviour of Our Operator? Would you mind to rate us of Operator.</string>
+    <string name="add_comments">Add Comments</string>
+    <string name="next">Next</string>
+    <string name="date">Date</string>
+    <string name="create_naccount">Create \nAccount</string>
+    <string name="choose_gender">Choose Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="select_your_age">Select Your Age</string>
+    <string name="your_age_must_be_greater_than_18_years">*your age must be greater than 18 years...</string>
+    <string name="add_address">Add Address</string>
+    <string name="get_npincode">get \npincode</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="signup">signup</string>
+    <string name="home">Home</string>
+    <string name="appointment">Appointment</string>
+    <string name="pending">Pending</string>
+    <string name="completed">Completed</string>
+    <string name="settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="setting">Setting</string>
+    <string name="logout">LogOut</string>
+    <string name="click_button_to_change_language" />
+    <string name="click_button_to_chnage_language">Click Button to Change Language</string>
+</resources>
