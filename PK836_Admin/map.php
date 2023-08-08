@@ -8,7 +8,7 @@ include('includes/sidebar.php');
     <!-- <div class="container-fluid "> -->
     <div id="map"></div>
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwoYRkSGxYH9XRYFQ7ynp37hKrJLbq1-c&callback=initMap" defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=KEY&callback=initMap" defer></script>
 </div><!-- /.container-fluid -->
 
 

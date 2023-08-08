@@ -11,7 +11,7 @@
     <string name="service_grant_permission" translatable="false">  - Please Grant Permission to Allow All the Time</string>
 
 
-    <string name="google_api_key" translatable="false">AIzaSyAwoYRkSGxYH9XRYFQ7ynp37hKrJLbq1-c</string>
+    <string name="google_api_key" translatable="false">KEY</string>
     <string name="operator_is_on_the_way_please_share_above_otp_with_operator_once_your_appointment_got_successfully_completed">Operator is on the way. Please Share above OTP with operator once your appointment got successfully completed...</string>
     <string name="behaviour">BEHAVIOUR:</string>
     <string name="op_name">Op Name:</string>
